@@ -1,0 +1,390 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  min-height: 60px !important;
+  margin-bottom:0;
+  border-radius:0;
+}
+.nav{
+  margin-right:5%;
+  margin-top:10px; 
+  box-sizing: border-box;
+}
+.nav > li {
+ padding-right:20px;
+ 
+}
+
+.nav > li> a:hover{
+  color:#febf01!important ;
+ }
+
+.fa fa-search {
+  color: white !important;
+}
+
+.search{
+  border-radius:30px 0px 0px 30px ;
+  width:300px ;
+  margin: -7px ;
+  background-color: transparent ;
+  border: 2px solid white  ;
+  border-right:0px ;
+  outline: none ;
+  color: white ;
+  direction: rtl ;
+  text-align: center ;
+}
+ .nav .glyphicon glyphicon-search{
+  color: white!important;
+}
+
+.btn {
+  border-radius: 0px 30px 30px 0px ;
+  background-color: transparent ;
+  border: 2px solid white ;
+  border-left:0px;
+  height: 26px ;
+  color: white ;
+  outline: none !important ;
+  cursor: pointer ;
+  margin-bottom:2px ;
+}
+header{
+  background-image: url('../img/banner/header1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navbar-default {
+  background-color: rgba(21, 163, 181, 0.6);
+  max-height: 30px;
+  border:none;
+}
+
+.navbar-default .nav > li > a {
+  color: #ecf0f1;
+  font-size: 18px;
+}
+.navbar-default .navbar-toggle {
+  border:none;
+}
+.navbar-default .navbar-toggle:hover{
+  background-color: rgba(21, 163, 181, 0.6);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #febf01;
+}
+.navbar-default .navbar-collapse
+{
+ background-color: rgba(21, 163, 181, 0.6);
+border: none !important;
+}
+
+header{
+  background-image: url('../img/banner/header1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.word
+{ position: absolute; 
+top:290px;
+left:500px ;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+color:#fff;
+
+}
+#ekshf
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #307376;
+font-size: 30px;
+}
+.askheader{
+  background-image: url('../img/banner/ask.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.doctornav{
+  background-image: url('../img/banner/doctor.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+.infonav{
+  background-image: url('../img/banner/info.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.diseesnav{
+  background-image: url('../img/banner/diseas.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 767px) {
+ 
+}
+
+@media (max-width: 767px) {
+  .search{
+    border-radius:30px 0px 0px 30px ;
+    width:80%; 
+    margin: -7px ;
+    background-color: transparent ;
+    border: 2px solid white  ;
+    border-right:0px ;
+    outline: none ;
+    color: white ;
+    direction: rtl ;
+    text-align: center ;
+    
+  }
+  
+  
+  .btn {
+    border-radius: 0px 30px 30px 0px ;
+    background-color: transparent ;
+    border: 2px solid white ;
+    border-left:0px;
+    height: 26px ;
+    color:white ;
+    outline: none !important ;
+    cursor: pointer ;
+    margin-bottom: 3px;
+  }
+ .nav li {
+  margin-top: 10px !important;
+ }
+ .navbar-default .navbar-collapse
+{
+  border: none;
+}
+}
+
+.btnn{
+  width:40px;
+  height: 30px;
+  font-family: "Droid Sans Arabic";
+  font-size: 18px;
+  text-align: right;
+  margin-left:80px;
+  margin-top: -30px;
+  background-color: #f0f0f0;
+  color:#00aeeb;
+  border: 0.5px solid #00aeeb;
+  border-top: 0.5px solid #00aeeb;
+  border-bottom: 0.5px solid #00aeeb;
+  border-right: 0px;
+  border-left: 0.5px solid #00aeeb;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+.msg{
+  width:600px;
+  height: 30px;
+  font-family: "Droid Sans Arabic";
+  font-size: 18px;
+  text-align: right;
+ margin-left: 120px;
+ /* margin-top: 50px;*/
+
+  background-color: #f0f0f0;
+  color:#00aeeb;
+  border: 0.5px solid #00aeeb;
+  border-top: 0.5px solid #00aeeb;
+  border-bottom: 0.5px solid #00aeeb;
+  border-right: 0.5px solid #00aeeb;
+  border-left: 0px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.t{
+  margin-right: 15px;
+}
+.showy
+{
+  overflow: auto;
+  width:720px;
+  height:300px;
+  background-color: #f0f0f0;
+  color:#00aeeb;
+  margin-top: 0px;
+ display: none;
+}
+
+#h3{
+  color:#febf01;
+  font-family: "Droid Sans Arabic";
+  width:100px;
+  height: 40px;
+  margin-left: 580px;
+  margin-top: 90px;
+  margin-bottom:50px;
+}
+
+.conty{
+  width:720px;
+  margin-left :380px;
+  margin-top: 10px;
+}
+#containt{
+  margin-bottom: 50px;
+  margin-left: -80px;
+}
+.c{
+  width:1100px;
+  height: auto;
+  margin-left: 120px;
+
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (max-width: 1279px)and (min-width: 1220px){
+.c{
+ margin-left: 15px;
+}
+}
+@media only screen and (max-width: 1219px)and (min-width: 1175px){
+  .c{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1174px)and (min-width: 1050px) {
+  .c{
+    margin-left: -90px;
+  }
+}
+@media only screen and (max-width: 1049px)and (min-width: 970px) {
+  .c{
+    margin-left: -220px;
+  }
+}
+@media only screen and (max-width: 969px)and (min-width: 830px) {
+  .c{
+    margin-left: -270px;
+  }
+}
+
+@media only screen and (max-width: 829px)and (min-width: 780px) {
+
+  .c{
+    margin-left: -270px;
+  }
+.msg
+{
+  width:400px;
+}
+
+
+}
+@media only screen and (max-width: 779px)and (min-width: 650px) {
+#h3{
+  margin-left: 600px;
+}
+
+  .conty{
+    margin-left: 450px;
+  }
+  .showy{
+
+  }
+  .c{
+    margin-left: -360px;
+    height:2550px;
+  }
+  .msg
+  {
+    width:400px;
+  }
+
+}
+
+@media only screen and (max-width: 649px)and (min-width: 470px) {
+.conty{
+  margin-left: -740px;
+}
+  .msg{
+    width:350px;
+
+    margin-left: 90px;
+  }
+
+  .c{
+    margin-left: 0px;
+  }
+  #containt{
+    margin-left: 720px;
+
+  }
+  .showy{
+    width:470px;
+    height: 300px;
+  }
+#h3{
+  margin-left: 180px;
+}
+}
+@media only screen and (max-width: 469px) {
+  .conty{
+    margin-left: -740px;
+  }
+  .msg{
+    width:300px;
+
+    margin-left: 90px;
+  }
+
+  .c{
+    margin-left: 0px;
+  }
+  #containt{
+    margin-left: 720px;
+
+  }
+  .showy{
+    width:470px;
+    height: 300px;
+  }
+  #h3{
+    margin-left: 180px;
+  }
+}
